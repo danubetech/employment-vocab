@@ -7,14 +7,13 @@
     "VerifiableCredential",
     "EmploymentCredential"
   ],
-  "id": "urn:uuid:2b767d24-681d-4746-b013-9342c1c6a5aa",
   "name": "Employment Credential",
   "description": "Employment Credential",
   "issuer": "did:key:z6MkkXNmybrz4A1oh39GdxNNDDDPgCcmbrrStGWPGBAdcuj1",
-  "issuanceDate": "2021-03-03T04:07:09.815Z",
+  "issuanceDate": "2021-03-11T11:33:21Z",
   "credentialSubject": {
-    "id": "did:key:z6MkrdgrcvRxnC6MtmjrWM2ro6DmtL179L4tPFNoaoFjtSai",
     "type": "Employee",
+    "id": "did:key:z6MkrdgrcvRxnC6MtmjrWM2ro6DmtL179L4tPFNoaoFjtSai",
     "title": "Senior Researcher",
     "jobStartDate": "2021-03-18T00:00:00.000Z",
     "employer": "Dairy Informatica",
@@ -27,9 +26,9 @@
   },
   "proof": {
     "type": "Ed25519Signature2018",
-    "created": "2021-03-03T04:07:09Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..1QkbBH23Lur8Bj16SSqVsmRIresAeto8hkGQFyqF4nFBbV1DNNXmHHERbgdrfJtwOEFoLtIQrZJge7gLXtzgCQ",
+    "created": "2021-03-11T11:33:21Z",
     "proofPurpose": "assertionMethod",
-    "verificationMethod": "did:key:z6MkrtYMJe2ZesvsnoSr8K1yVerjo6EhC2G5jxBDKrD284L2#z6MkrtYMJe2ZesvsnoSr8K1yVerjo6EhC2G5jxBDKrD284L2"
+    "verificationMethod": "did:key:z6MkkXNmybrz4A1oh39GdxNNDDDPgCcmbrrStGWPGBAdcuj1#z6MkkXNmybrz4A1oh39GdxNNDDDPgCcmbrrStGWPGBAdcuj1",
+    "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..6mcw-_OwBddnFbbbkZQOO5DOZs_lg7nIUiFNNpi3iLtAhJd2NSf8R8L0ePGJQGvF7TQz56rv0eHsl7APVPTQBQ"
   }
 }
