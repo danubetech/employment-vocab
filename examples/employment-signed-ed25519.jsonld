@@ -7,10 +7,8 @@
     "VerifiableCredential",
     "EmploymentCredential"
   ],
-  "name": "Employment Credential",
-  "description": "Employment Credential",
-  "issuer": "did:key:z6MkkXNmybrz4A1oh39GdxNNDDDPgCcmbrrStGWPGBAdcuj1",
-  "issuanceDate": "2021-03-11T11:33:21Z",
+  "issuer": "did:key:z6MkvfambyLsugwe8DCHeUGVJbYZyKne59RDHx2dqmXRG6nB",
+  "issuanceDate": "2021-07-01T11:19:21Z",
   "credentialSubject": {
     "type": "Employee",
     "id": "did:key:z6MkrdgrcvRxnC6MtmjrWM2ro6DmtL179L4tPFNoaoFjtSai",
@@ -20,15 +18,18 @@
     "manager": "Dr. René Pascal",
     "location": "San Diego, CA, USA",
     "department": {
+      "type": "Department",
       "departmentName": "Research and Development",
       "departmentNumber": "4"
     }
   },
+  "name": "Employment Credential",
+  "description": "Employment Credential",
   "proof": {
     "type": "Ed25519Signature2018",
-    "created": "2021-03-11T11:33:21Z",
+    "created": "2021-07-01T11:19:21Z",
     "proofPurpose": "assertionMethod",
-    "verificationMethod": "did:key:z6MkkXNmybrz4A1oh39GdxNNDDDPgCcmbrrStGWPGBAdcuj1#z6MkkXNmybrz4A1oh39GdxNNDDDPgCcmbrrStGWPGBAdcuj1",
-    "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..6mcw-_OwBddnFbbbkZQOO5DOZs_lg7nIUiFNNpi3iLtAhJd2NSf8R8L0ePGJQGvF7TQz56rv0eHsl7APVPTQBQ"
+    "verificationMethod": "did:key:z6MkvfambyLsugwe8DCHeUGVJbYZyKne59RDHx2dqmXRG6nB#z6MkvfambyLsugwe8DCHeUGVJbYZyKne59RDHx2dqmXRG6nB",
+    "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..E8h2cXiu-3VU-csPRwCipKTNNd14LJRsn6nb-yCoa9iry7c4AZXE6LwmRC1zB5Y5lOVx6pfxfD_rjG3JcWt-AQ"
   }
 }
